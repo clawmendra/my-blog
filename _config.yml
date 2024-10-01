@@ -8,19 +8,12 @@ author: Almendra Clawson
 author_description: "This description of who you are will appear on the 'About' page." 
 
 url: https://clawmendra.github.io
-baseurl: /Data Science Applications in Businesses ## change this to the name of your blog repository
+baseurl: /my-blog ## change this to the name of your blog repository
 header_image: /assets/img/headerimg.jpg ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
     github: clawmendra
-    twitter: 
-    facebook: 
-    email: 
-    linkedin:
-    youtube: 
-    tumblr: 
-    website: 
 
 
 
