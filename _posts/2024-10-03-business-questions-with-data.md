@@ -21,7 +21,11 @@ By April 2024, I heard about an opportunity at BYU Broadcasting through my stati
 
 One of my responsibilities is working with The Lisa Show, a BYU Radio podcast hosted by Lisa Valentine Clark. My job is to help them answer questions about their audience and extract insights from their data. During my first meeting with the production team, I took notes on what they wanted to learn to grow their audience. Translating their goals into data problems was my first real challenge.
 
-<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt="" style="width: 75%;"> <figcaption>Figure 1 - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption> </figure>
+<figure>
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt="" style="width: 40%;"> 
+	<figcaption>Figure 1 - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption>
+</figure>
+
 
 ### Translating the Classroom to the Business World
 
