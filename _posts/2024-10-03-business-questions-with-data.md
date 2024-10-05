@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Connecting the Dots between Business Questions and the Classroom"
+date: 2024-10-03
 author: Almendra Clawson
-description: Short yet informative description
-image: "/path/to/image"  # or "url_to_image"
+description: A tutorial post on how to map business questions into a data science process.
 ---
 
 <p class="intro"><span class="dropcap">T</span>his post will describe how to create a blog post with the proper naming conventions, as well as tips for including images and links.  At the end there is a troubleshooting guide that can help with the most common problems .</p>
@@ -33,6 +33,12 @@ I took my notes, cleaned them up a bit, and narrowed down their ideas into these
 2. Which series are more popular than others? Why?
 3. Is there a connection between popular posts/reels and increased listeners?
 
-I remember feeling proud that I could take what they expressed and model it into these key questions. The Lisa Show team has a different background and purpose than I do. They trust me to take their questions and somehow apply it with the skills I've learned at BYU. At the end of the meeting, Ww scheduled a follow-up meeting with eachother for the end of the summer. Since they were planning on releasing a new series with a different format in July, they wanted to have enough time to pass by to see if there was any change with listeners.
+I remember feeling proud that I could take what they expressed and model it into these key questions. The Lisa Show production team has a different background and purpose than I do. They trust me to take their questions and somehow apply it with the skills I've learned at BYU. At the end of the meeting, We scheduled a follow-up meeting with eachother for the end of the summer. Since they were planning on releasing a new series with a different format in July, they wanted to have enough time to pass by to see if there was any change with listeners. With my team, we divide and conquer on projects which means everyone is working on their own path. Although I have more experienced co-workers and leaders to help me, I am in charge with how I hash out these projects.
 
-With my team, we divided and conquer on projects which means puts everyone on a different route. Although I have more experienced co-workers and leaders to help me, we are all working on a our own projects which means I am in charge of how I hash out these projects. 
+As I started on answering The Lisa Show questions, I made the mistake on not mapping out my plan. I ended up running in circles because I lost sight how what my purpose was. I was used to working projects that mapped out every step I needed to do because it was for a class. I realized I had no experience of mapping out a problem on my own since  everything was layed out for me by a professor. How do I translate what I've learned to the real world?
+
+#### What's the Process?
+After talking to my co-workers, I came up with this plan to help  
+
+
+
