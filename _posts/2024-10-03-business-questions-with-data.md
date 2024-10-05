@@ -23,7 +23,7 @@ One of my responsibilities is working with The Lisa Show, a BYU Radio podcast ho
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt=""> 
-	<figcaption>Figure 1-The Lisa Show-found on BYURadio, Apple Podcats, and Spotify.</figcaption>
+	<figcaption>Figure 1-The Lisa Show: found on BYURadio, Apple Podcasts, and Spotify.</figcaption>
 </figure>
 
 ### Translating the Classroom to the Business World
@@ -37,7 +37,7 @@ From the meeting, I distilled their questions into three key areas:
 I felt proud to model their questions into these points, but this was where my academic experience fell short. In class, every project was clearly laid out by professors. Here, I had to map out the problem and manage the project myself, which was unfamiliar territory.
 
 #### Learning the Processs
-Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Here’s the general data science framework I now follow:
+Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Due to keeing the data at my job confidential and privacy laws, I am unable to share any charts or my findings from cleaning and EDA but here's the general data science framework I now follow:
 
 1. Identify the problem: Narrow down the core questions.
 2. Collect data: Identify existing datasets or gather new data.
@@ -50,8 +50,10 @@ This process is pretty common among the data science world. Although this model 
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/data-science-process.jpg" alt=""> 
-	<figcaption>Figure 2. - This is another example of this proces from appinventiv.com</figcaption>
+	<figcaption>Figure 2. - This is another example of this process from appinventiv.com</figcaption>
 </figure>
+
+
 
 ### Now What?
 This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project, I recommend using this structure to stay organized. I invite you to write down these key points and apply it to your next personal or buisness project.
