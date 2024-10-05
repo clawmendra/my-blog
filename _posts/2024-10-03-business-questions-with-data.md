@@ -38,7 +38,7 @@ From the meeting, I distilled their questions into three key areas:
 I felt proud to model their questions into these points, but this was where my academic experience fell short. In class, every project was clearly laid out by professors. Here, I had to map out the problem and manage the project myself, which was unfamiliar territory.
 
 #### Learning the Processs
-Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Due to keeing the data at my job confidential and privacy laws, I am unable to share any charts or my findings from cleaning and EDA but here's the general data science framework I now follow:
+Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Due to keeping the data at my work confidential and other privacy laws, I am unable to share any charts or my findings from cleaning and EDA but here's the general data science framework I now follow:
 
 1. Identify the problem: Narrow down the core questions.
 2. Collect data: Identify existing datasets or gather new data.
