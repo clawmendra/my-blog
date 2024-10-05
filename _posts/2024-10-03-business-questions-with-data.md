@@ -21,10 +21,7 @@ By April 2024, I heard about an opportunity at BYU Broadcasting through my stati
 
 One of my responsibilities is working with The Lisa Show, a BYU Radio podcast hosted by Lisa Valentine Clark. My job is to help them answer questions about their audience and extract insights from their data. During my first meeting with the production team, I took notes on what they wanted to learn to grow their audience. Translating their goals into data problems was my first real challenge.
 
-<figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt=""> 
-	<figcaption>Figure 1-The Lisa Show: found on BYURadio, Apple Podcasts, and Spotify.</figcaption>
-</figure>
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt="" style="width: 75%;"> <figcaption>Figure 1 - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption> </figure>
 
 ### Translating the Classroom to the Business World
 
@@ -53,7 +50,5 @@ This process is pretty common among the data science world. Although this model 
 	<figcaption>Figure 2. - This is another example of this process from appinventiv.com</figcaption>
 </figure>
 
-
-
 ### Now What?
-This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project, I recommend using this structure to stay organized. I invite you to write down these key points and apply it to your next personal or buisness project.
+This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project, I recommend using this structure to stay organized. I invite you to write down these key points and apply it to your next personal or business project.
