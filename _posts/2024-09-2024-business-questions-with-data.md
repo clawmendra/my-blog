@@ -22,10 +22,6 @@ By April 2024, I had heard of an opportunity to work at BYU Broadcasting from my
 
 The Lisa Show is a BYU Radio podcast hosted by Lisa Valentine Clark that covers a wide variety of topics from parenting to personal growth. One of my responsibilities is to help The Lisa Show answer questions about their show and share any useful insights I see from their data. Since I was new, the lead data analyst and data scientist scheduled an introductory meeting for me to meet with The Lisa Show production team. From that introductory meeting, I was able to take notes and discuss what knowledge their team wanted to know to help their podcast audience grow. Meeting with The Lisa Show was insightful because I was able to hear what they wanted to know for their show. Although I had taken thorough notes from the meeting, I didn't anticipate what would be my biggest struggle would be: taking their questions and modeling it into a data problem.
 
-<figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt=""> 
-	<figcaption>Figure 1. - The Lisa Show Podcast</figcaption>
-</figure>
 
 ### Translating the Classroom to the Business World
 
