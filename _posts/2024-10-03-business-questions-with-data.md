@@ -15,7 +15,7 @@ In Fall 2023, I knew it was time to look for internships before graduating the f
 
 ### Opportunity Arises at BYU Broadcasting
 
-By April 2024, I heard about an opportunity at BYU Broadcasting through my statistical modeling class. After two rounds of interviews, I was thrilled to receive an offer for a hybrid data analyst/data engineer position on the Business Intelligence Team (BIT). I started in May and began learning tools like DOMO and AWS. Thankfully, my recent coursework gave me a solid foundation to build on.
+By April 2024, I heard about an opportunity at BYU Broadcasting through my statistical modeling class. After two rounds of interviews, I was thrilled to receive an offer for a hybrid data analyst/data engineer position on the Business Intelligence Team (BIT). I started in May and began learning tools like DOMO and AWS. Thankfully, my recent coursework (e.g. Intro to Machine Learning, Data Science Ecosystems, Statistical Modeling in R) gave me a solid foundation to build on.
 
 ### Meeting The Lisa Show Team
 
@@ -37,7 +37,7 @@ From the meeting, I distilled their questions into three key areas:
 
 I felt proud to model their questions into these points, but this was where my academic experience fell short. In class, every project was clearly laid out by professors. Here, I had to map out the problem and manage the project myself, which was unfamiliar territory.
 
-#### Learning the Processs
+#### Learning the Process
 Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Due to keeping the data at my work confidential and other privacy laws, I am unable to share any charts or my findings from cleaning and EDA but here's the general data science framework I now follow:
 
 1. Identify the problem: Narrow down the core questions.
@@ -55,4 +55,4 @@ This process is pretty common among the data science world. Although this model 
 </figure>
 
 ### Now What?
-This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project, I recommend using this structure to stay organized. I invite you to write down these key points and apply it to your next personal or business project.
+This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project for work, I recommend using this structure to stay organized. If you don't have an internship or a job that allows you the opportunity to apply this process, I invite you to come up with your own project. Form your own question and look for datasets online that you could start this process. Having practice working with this data science process with personal projects is great to have, especially if you don't have much related job experience to put on your resume.
