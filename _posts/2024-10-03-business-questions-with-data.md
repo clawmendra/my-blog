@@ -23,9 +23,6 @@ One of my responsibilities is working with The Lisa Show, a BYU Radio podcast ho
 
 ### Translating the Classroom to the Business World
 
-I took my notes, cleaned them up a bit, and narrowed down their ideas into these questions:
-
-##### Translating Classroom Knowledge to Real-World Problems
 From the meeting, I distilled their questions into three key areas:
 
 1. Does the audience enjoy the series/season layout for episodes?
