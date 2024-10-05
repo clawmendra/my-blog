@@ -37,4 +37,7 @@ I took my notes, cleaned them up a bit, and narrowed down their ideas into these
 2. Which series are more popular than others? Why?
 3. Is there a connection between popular posts/reels and increased listeners?
 
-I remember feeling proud that I could take what they expressed and model it into these key questions. The Lisa Show team has a different background and purpose than I do. They trust me to take their questions and somehow apply it with the skills I've learned at BYU. At the end of the meeting, Ww scheduled a follow-up meeting with eachother for the end of the summer. Since they were planning on releasing a new series with a different format in July, they wanted to have enought time go by to see if there was any change with listeners.
+I remember feeling proud that I could take what they expressed and model it into these key questions. The Lisa Show team has a different background and purpose than I do. They trust me to take their questions and somehow apply it with the skills I've learned at BYU. At the end of the meeting, Ww scheduled a follow-up meeting with eachother for the end of the summer. Since they were planning on releasing a new series with a different format in July, they wanted to have enough time to pass by to see if there was any change with listeners.
+
+With my team, we divided and conquer on projects which means puts everyone on a different route. Although I have more experienced co-workers and leaders to help me, we are all working on a our own projects which means I am in charge of how I hash out these projects. 
+
