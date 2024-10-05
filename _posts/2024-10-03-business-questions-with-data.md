@@ -6,7 +6,7 @@ author: Almendra Clawson
 description: A tutorial post on how to map business questions into a data science process.
 ---
 
-<p class="intro"><span class="dropcap">I</span>n this post, I share my experience transitioning from student to data analyst, tackling real-world problems at BYU Broadcasting. From navigating a competitive internship search to working with The Lisa Show team, I discuss how I applied classroom knowledge to solve business challenges using data. Along the way, I learned the importance of mapping out a clear process to tackle complex projects, and I share insights into the data science framework that helped me succeed..</p>
+<p class="intro"><span class="dropcap">I</span>n this post, I share my experience transitioning from student to data analyst, tackling real-world problems at BYU Broadcasting. From navigating a competitive internship search to working with The Lisa Show team, I discuss how I applied classroom knowledge to solve business challenges using data. Along the way, I learned the importance of mapping out a clear process to tackle complex projects, and I share insights into the data science framework that helped me succeed.</p>
 
 
 ### Urgency to Apply my Knowledge
@@ -55,4 +55,4 @@ This process is pretty common among the data science world. Although this model 
 </figure>
 
 ### Now What?
-This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project for work, I recommend using this structure to stay organized. If you don't have an internship or a job that allows you the opportunity to apply this process, I invite you to come up with your own project. Form your own question and look for datasets online that you could start this process. Having practice working with this data science process with personal projects is great to have, especially if you don't have much related job experience to put on your resume.
+This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project for work, I recommend using this structure to stay organized. If you don't have an internship or a job that allows you the opportunity to apply this process, I invite you to come up with your own project. Form your own question and look for datasets online that you could use to start this process. Having practice working with this data science process with personal projects is great to have, especially if you don't have much related job experience to put on your resume.
