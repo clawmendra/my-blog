@@ -1,10 +1,10 @@
 ## You should change each of the following fields
 ## to customize your blog
 
-title: "My 'Purrsuit' into Data Science--A Clawson Blog"
+title: "Purr-spectives in Data: A Cat's Eye on Analytics"
 description: "From my experience from working at BYU Broadcasting as a data analyst, I will be sharing how to translate business and marketing questions into data applications." 
 author: Almendra Clawson
-author_description: "My name is Almendra Clawson and I love stats as much as I love my cats. I'm majoring in statistics with a data science emphasis and a computer science minor. This is where I'll share my experiences as an undergrad of what I've learned in the data science world." 
+author_description: "My name is Almendra Clawson and I love stats as much as I love my four cats. I'm majoring in statistics with a data science emphasis and a computer science minor at BYU." 
 
 url: https://clawmendra.github.io
 baseurl: /my-blog ## change this to the name of your blog repository
