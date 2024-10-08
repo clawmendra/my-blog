@@ -9,7 +9,7 @@ author_description: "My name is Almendra Clawson and I'm majoring in statistics 
 
 url: https://clawmendra.github.io
 baseurl: /my-blog ## change this to the name of your blog repository
-header_image: /assets/img/catbanner.jpg ## change your header image if you want
+header_image: /assets/img/darkcatbanner.jpg ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
