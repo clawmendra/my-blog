@@ -29,7 +29,7 @@ One of my responsibilities is working with [The Lisa Show](https://www.byuradio.
 ### Translating the Classroom to the Business World
 With any solving business problem, having a some sort of structure for your data science process will help you keep track of what your objective should be. In class, every project was clearly laid out by professors but I needed to find my own outline on what I need to derive for The Lisa Show Team. From talking to my other co-workers, I learned from their work experience this structure of how to turn their questions into solutions derived from the data.
 
-##### Step 1: Identify the problem and from them into questions.
+##### Step 1: Identify the problem and from into questions.
 From the meeting, I distilled their concerns into three key questions.
 - Does the audience enjoy the series/season layout for episodes?
 - Which series are more popular and why?
@@ -45,13 +45,12 @@ In DOMO, I looked for missing values and standardized the data by making sure th
 With step 3 and 4, I found that these steps are often interwined with eachother. I made some basic visualizations to spot patterns in the data and to see if I had any missing or outlier values. Here's an example of a bar chart I made looking at their engagements with their Instagram account.
 
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt="" style="width: 30%;"> 
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt=""> 
 	<figcaption>Figure 2 - Basic bar chart made from The Lisa Show with DOMO. </figcaption>
 </figure>
 
 ##### Step 5: Make models and interpret the data
-5. Modeling: Apply machine learning methods like supervised, unsupervised, or time series analysis.
-6. Interpret and deploy: Choose the best models, present findings clearly.
+Apply machine learning methods like supervised, unsupervised, or time series analysis. Interpret and deploy: Choose the best models, present findings clearly.
 
 This process is pretty common among the data science world. Although this model differs, here's an image of another example that you can follow:
 
