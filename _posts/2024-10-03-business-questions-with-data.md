@@ -46,7 +46,7 @@ With step 3 and 4, I found that these steps are often interwined with eachother.
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt=""> 
-	<figcaption>Figure 2 - Basic bar chart made from The Lisa Show with DOMO. </figcaption>
+	<figcaption>Figure 2 - Basic bar chart made from The Lisa Show Sprout data in DOMO. </figcaption>
 </figure>
 
 ##### Step 5: Make models and interpret the data
