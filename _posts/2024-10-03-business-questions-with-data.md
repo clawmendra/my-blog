@@ -27,37 +27,40 @@ One of my responsibilities is working with [The Lisa Show](https://www.byuradio.
 </figure>
 
 ### Translating the Classroom to the Business World
-With any solving business problem, having a some sort of structure for your data science process will help you keep track of what your objective should be. In class, every project was clearly laid out by professors but I needed to find my own outline on what I need to derive for The Lisa Show Team. From talking to my other co-workers, I learned from their work experience this structure of how to turn their questions into solutions derived from the data.
+With any solving business problem, having a clear structure for your data science process will helps you stay focused on the objective. In class, every project was clearly laid out by professors but for The Lisa Show, I needed to develop my own outline. From talking to my other co-workers, I learned how they turned business questions into data-driven solutions.
 
-##### Step 1: Identify the problem and from into questions.
+#### Step 1: Identify the problem and from into questions.
 From the meeting, I distilled their concerns into three key questions.
 - Does the audience enjoy the series/season layout for episodes?
 - Which series are more popular and why?
 - Is there a connection between popular posts/reels and increased listeners?
 
-##### Step 2: Collect the data
-After narrowing the questions I needed to answer, I needed to the collect and gather data. I knew that I needed data that contained information about their social media engagements on Facebook and Instagram. I also needed data on their listeners from not only BYU Radio but from third party platforms on Spotify and Apple Podcasts. Luckily for me, I had access to most of the data I needed already so I found which tables I wanted and combined them with the ETL tool in DOMO.
+#### Step 2: Collect the data
+After narrowing down the questions, I needed to gather the right data. I knew that I needed data on social media engagement from Facebook and Instagram, as well as listener data from BYU Radio, Spotify, and Apple Podcasts. Luckily, I had access to most of the data already, so I selected the relevant tables and combined them using DOMO's ETL tool.
 
-##### Step 3: Clean and wrangle the data
-In DOMO, I looked for missing values and standardized the data by making sure that the datatypes were correct (e.g. 129 is an integer rather than a string). 
+#### Step 3: Clean and wrangle the data
+In DOMO, I looked for missing values and standardized the data by ensuring that the datatypes were correct (e.g., 129 is an integer rather than a string).
 
-##### Step 4: Exploratory Data Analysis (EDA) 
-With step 3 and 4, I found that these steps are often interwined with eachother. I made some basic visualizations to spot patterns in the data and to see if I had any missing or outlier values. Here's an example of a bar chart I made looking at their engagements with their Instagram account.
+#### Step 4: Exploratory Data Analysis (EDA) 
+I found that data cleaning and EDA are often intertwined. I created basic visualizations to spot patterns in the data and to check for missing or outlier values. Here's an example of a bar chart I made of their Instagram engagement.
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt=""> 
 	<figcaption>Figure 2. - Basic bar chart made from The Lisa Show Sprout data in DOMO. </figcaption>
 </figure>
 
-##### Step 5: Model and interpret the data
-For this step, you can apply machine learning methods like supervised, unsupervised, or time series analysis. After testing several models, we can interpret our models and find the best ones that answer our questions listed earlier. I am currently working on this step at work, but once I'm done I can present my findings to The Lisa Show team!
+#### Step 5: Model and interpret the data
+In this step, you can apply machine learning methods like supervised learning, unsupervised learning, or time series analysis. After testing several models, we can interpret the results to find the best one that answers our initial questions. I am currently working on this step for The Lisa Show, but once I'm done, I’ll present my findings to the team!
 
 ### Now What?
-This process is pretty common among the data science world. Although you can find several versions of it, this is my basic process that I found that worked for me. Here's an image of another example that you can follow:
+This process is common in data science, although there are several versions of it. Here's another example of a similar framework:
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/data-science-process.jpg" alt=""> 
 	<figcaption>Figure 3. - This is another example of this process from appinventiv.com</figcaption>
 </figure>
 
-This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project for work, I recommend using this structure to stay organized. If you don't have an internship or a job that allows you the opportunity to apply this process, I invite you to come up with your own project. Form your own question and look for datasets online that you could use to start this process. Having practice working with this data science process with personal projects is great to have, especially if you don't have much related job experience to put on your resume.
+While the process helps me stay focused, I’ve learned it’s not always linear. Jumping between steps—like returning to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations.
+
+If you're taking on a project at work, I recommend using this structure to stay organized. If you don’t have an internship or job that allows you to apply this process, I encourage you to come up with your own project. Form your own question and look for datasets online to start your process. Gaining experience with this framework through personal projects is invaluable, especially if you lack related work experience to highlight on your resume.
+
