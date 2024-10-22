@@ -26,24 +26,30 @@ One of my responsibilities is working with [The Lisa Show](https://www.byuradio.
 	<figcaption>Figure 1 - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption>
 </figure>
 
-
 ### Translating the Classroom to the Business World
+With any solving business problem, having a some sort of structure for your data science process will help you keep track of what your objective should be. In class, every project was clearly laid out by professors but I needed to find my own outline on what I need to derive for The Lisa Show Team. From talking to my other co-workers, I learned from their work experience this structure of how to turn their questions into solutions derived from the data.
 
-From the meeting, I distilled their questions into three key areas:
+##### Step 1: Identify the problem and from them into questions.
+From the meeting, I distilled their concerns into three key questions.
+- Does the audience enjoy the series/season layout for episodes?
+- Which series are more popular and why?
+- Is there a connection between popular posts/reels and increased listeners?
 
-1. Does the audience enjoy the series/season layout for episodes?
-2. Which series are more popular and why?
-3. Is there a connection between popular posts/reels and increased listeners?
+##### Step 2: Collect the data
+After narrowing the questions I needed to answer, I needed to the collect and gather data. I knew that I needed data that contained information about their social media engagements on Facebook and Instagram. I also needed data on their listeners from not only BYU Radio but from third party platforms on Spotify and Apple Podcasts. Luckily for me, I had access to most of the data I needed already so I found which tables I wanted and combined them with the ETL tool in DOMO.
 
-I felt proud to model their questions into these points, but this was where my academic experience fell short. In class, every project was clearly laid out by professors. Here, I had to map out the problem and manage the project myself, which was unfamiliar territory.
+##### Step 3: Clean and wrangle the data
+In DOMO, I looked for missing values and standardized the data by making sure that the datatypes were correct (e.g. 129 is an integer rather than a string). 
 
-#### Learning the Process
-Fortunately, my co-workers helped guide me through a structured process to tackle the problem. Due to keeping the data at my work confidential and other privacy laws, I am unable to share any charts or my findings from cleaning and EDA but here's the general data science framework I now follow:
+##### Step 4: Exploratory Data Analysis (EDA) 
+With step 3 and 4, I found that these steps are often interwined with eachother. I made some basic visualizations to spot patterns in the data and to see if I had any missing or outlier values. Here's an example of a bar chart I made looking at their engagements with their Instagram account.
 
-1. Identify the problem: Narrow down the core questions.
-2. Collect data: Identify existing datasets or gather new data.
-3. Clean and wrangle the data: Handle missing values, standardize formats.
-4. Exploratory Data Analysis (EDA): Use basic visualizations to spot patterns.
+<figure>
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt="" style="width: 30%;"> 
+	<figcaption>Figure 2 - Basic bar chart made from The Lisa Show with DOMO. </figcaption>
+</figure>
+
+##### Step 5: Make models and interpret the data
 5. Modeling: Apply machine learning methods like supervised, unsupervised, or time series analysis.
 6. Interpret and deploy: Choose the best models, present findings clearly.
 
@@ -51,7 +57,7 @@ This process is pretty common among the data science world. Although this model 
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/data-science-process.jpg" alt=""> 
-	<figcaption>Figure 2. - This is another example of this process from appinventiv.com</figcaption>
+	<figcaption>Figure 3. - This is another example of this process from appinventiv.com</figcaption>
 </figure>
 
 ### Now What?
