@@ -46,18 +46,18 @@ With step 3 and 4, I found that these steps are often interwined with eachother.
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_eda.jpg" alt=""> 
-	<figcaption>Figure 2 - Basic bar chart made from The Lisa Show Sprout data in DOMO. </figcaption>
+	<figcaption>Figure 2. - Basic bar chart made from The Lisa Show Sprout data in DOMO. </figcaption>
 </figure>
 
-##### Step 5: Make models and interpret the data
-Apply machine learning methods like supervised, unsupervised, or time series analysis. Interpret and deploy: Choose the best models, present findings clearly.
+##### Step 5: Model and interpret the data
+For this step, you can apply machine learning methods like supervised, unsupervised, or time series analysis. After testing several models, we can interpret our models and find the best ones that answer our questions listed earlier. I am currently working on this step at work, but once I'm done I can present my findings to The Lisa Show team!
 
-This process is pretty common among the data science world. Although this model differs, here's an image of another example that you can follow:
+### Now What?
+This process is pretty common among the data science world. Although you can find several versions of it, this is my basic process that I found that worked for me. Here's an image of another example that you can follow:
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/data-science-process.jpg" alt=""> 
 	<figcaption>Figure 3. - This is another example of this process from appinventiv.com</figcaption>
 </figure>
 
-### Now What?
 This process keeps me focused and on track, though I’ve learned it’s not always linear. Jumping between steps—like going back to clean data while modeling—is common, and that’s okay. I’m still working through Step 5 for The Lisa Show, but having this process outlined has helped me manage my time and expectations. If you're taking on a project for work, I recommend using this structure to stay organized. If you don't have an internship or a job that allows you the opportunity to apply this process, I invite you to come up with your own project. Form your own question and look for datasets online that you could use to start this process. Having practice working with this data science process with personal projects is great to have, especially if you don't have much related job experience to put on your resume.
