@@ -23,7 +23,7 @@ One of my responsibilities is working with [The Lisa Show](https://www.byuradio.
 
 <figure>
 	<img src="{{site.url}}/{{site.baseurl}}/assets/img/lisa_show.jpg" alt="" style="width: 30%;"> 
-	<figcaption>Figure 1 - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption>
+	<figcaption>Figure 1. - The Lisa Show: Found on BYU Radio, Apple Podcasts, and Spotify.</figcaption>
 </figure>
 
 ### Translating the Classroom to the Business World
