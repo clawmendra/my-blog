@@ -130,7 +130,7 @@ for id in org_ids:
 Once we've done that, we have a table with all the information we need!
 
 
-### Summarizing and Exploring the DataFrame
+### Summarizing and Describing the DataFrame
 
 Forewarning, the Petfinder API is updated daily so the data changes quite a bit which makes sense due to pets being adopted or more being placed for adoption. However, we can use the same methods to summarize our dataset.
 
@@ -173,3 +173,16 @@ All of my code is listed on my Github. If you want to look at the full summary s
 | Adult       | 128         |
 | Young       | 107         |
 | Senior      | 17          |
+
+I also made a simple bar chart to see a spread of the animals listed by organization. Looks like [OutReach Pawsibilites](https://outreachpawsabilitiesinc.org/) has the highest number of pets listed online at the moment with around 60 pets.
+
+### Highest Proportion of Cats
+ 
+ I took my animal dataframe and modified it only have the organization_name,species, and a count of how many animals total from that organization. I filtered out the organization that didn't have any cats. From that point I calculate the proportion of cats listed compared to the animals listed by organization and graphed it. 
+
+ <figure>
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> 
+	<figcaption> Figure 1. - Bar Chart created with Seaborn and Matplotlib</figcaption>
+</figure>
+
+To my pleasant surprise, I was able to find 9 cat only Pet Organizations! Turns out if I only wanted to adopt a cat, I could go to any of those places and find one. I encourage to use Petfinder API and to try to analyze the animals near your location. For example, you could use my same question and try to solve what proportion of pet organizations near you have mostly dogs? 
