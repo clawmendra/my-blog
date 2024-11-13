@@ -134,25 +134,42 @@ Once we've done that, we have a table with all the information we need!
 
 Forewarning, the Petfinder API is updated daily so the data changes quite a bit which makes sense due to pets being adopted or more being placed for adoption. However, we can use the same methods to summarize our dataset.
 
-If you would like to know the how many rows and columns are in your dataframe, you can use ".shape" attribute which will return a tuple of (rows, columns). To see the datatypes of each columns in the dataframe, ou can use the attribute ".columns."
+If you would like to know the how many rows and columns are in your dataframe, you can use ".shape" attribute which will return a tuple of (rows, columns). To see the datatypes of each columns in the dataframe, you can use the attribute ".columns."
 {%- highlight python -%}
 
 animals_df.shape
 
 animals_df.columns
 
-summary_stats = {
-    'Total Animals': len(animals_df),
-    'Species Distribution': animals_df['species'].value_counts(),
-    'Age Groups': animals_df['age'].value_counts(),
-    'Most Common Breeds': animals_df['breed'].value_counts().head(),
-    'Gender Distribution': animals_df['gender'].value_counts(normalize=True),
-    'Percentage of Animals Fixed': (animals_df['fixed'] == True).mean() * 100,
-    'House Trained Percentage': (animals_df['house_trained'] == True).mean() * 100,
-    'Most Common Colors': animals_df['color'].value_counts().head(),
-    'Organizations Count': animals_df['organization_name'].nunique()
-}
-
-print(summary_stats)
-
 {%- endhighlight -%}
+
+For some quick summary statistics at a glance, you can make a dictionary with the keys as the variable of interest and the values with the operation on the animals dataframe.
+
+{%- highlight python -%}
+summary_stats = {
+    'Species Distribution': animals_df['species'].value_counts(),
+    'Age Groups': animals_df['age'].value_counts()
+    #...insert more here
+}
+{%- endhighlight -%}
+
+All of my code is listed on my Github. If you want to look at the full summary statistics code for idea, click here. I've listed the output of my findings of the species distribution and age groups I found from my code below.
+
+#### Species Distribution
+
+| Species     | Count       |
+| ----------- | ----------- |
+| Cat         | 216         |
+| Dog         | 178         |
+| Rabbit      | 4           |
+| Duck        | 1           |
+| Rat         | 1           |
+
+#### Age Distribution
+
+| Age Groups  | Count       |
+| ----------- | ----------- |
+| Baby        | 148         |
+| Adult       | 128         |
+| Young       | 107         |
+| Senior      | 17          |
