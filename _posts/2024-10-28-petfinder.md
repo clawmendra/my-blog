@@ -6,22 +6,21 @@ author: Almendra Clawson
 description: Insert description here
 ---
 
-<p class="intro"><span class="dropcap">T</span>his post will describe how to create a blog post with the proper naming conventions, as well as tips for including images and links.  At the end there is a troubleshooting guide that can help with the most common problems .</p>
-
+<p class="intro"><span class="dropcap">A</span>re you interested in understanding pet adoption trends in your area? In this post, I’ll show you how I used the Petfinder API to analyze the availability of pets near me, specifically exploring which organizations have the highest proportion of cats available for adoption.</p>
 
 ### Love for Pets
 
-Throughout my childhood, I was surrounded with all sorts of pets. I pretty much had any type of pet that you could domesticate: cats, dogs, hamsters, birds, fish, and even hermit crabs. My pets were a source of love and companionship that I had that helped me with the trials that my family faced. When I got married and moved out of my home to study at BYU-Idaho University, I was diagnosed with depression and anxiety. Along with the support of counseling and medication, I wanted to adopt an emotional support animal to help my mental health. I looked online to see where I could adopt a cat near me and came across the website Petfinder.
+Throughout my childhood, I was surrounded by pets: cats, dogs, hamsters, birds, fish, and even hermit crabs. My pets provided love and companionship, helping me cope during challenging times. When I moved out to study at BYU-Idaho University, I was diagnosed with depression and anxiety. Along with counseling and medication, I decided to adopt an emotional support animal. Looking online, I came across Petfinder, which helped me find my cat, Sophie. Now, although I’m not looking for another cat, I wanted to analyze Petfinder’s data to see which pet organizations near me have a higher proportion of cats compared to dogs.
 
 ### What is Petfinder?
 
-[Petfinder](https://www.petfinder.com/) is one of the largest online, searchable databases used to promote pets in your area that are available for adoption. U.S. Shelters and adoption organizations can use this technology to maintain their own pet database and create profiles for their pets. Petfinder also allows those looking to adopt to create a profile to share information on what type of pet they are looking for to match with compatible pets based on factors like species, breed, age, good with kids, etc. Because of Petfinder, I was able to find a match and adopt my cat, Sophie. Petfinder had all the information I needed to narrow down which cats were available near me with the traits I needed for an emotional support animal. Although I am not looking for another cat right now, I'm interested with analyzing Petfinder's data to see which pet organization near me has a higher proportion of cats available to adopt than dogs?
+[Petfinder](https://www.petfinder.com/) is one of the largest online, searchable databases for pets available for adoption. Shelters and adoption organizations across the U.S. use it to list profiles for their animals, which potential adopters can filter by species, breed, age, temperament, and more. Petfinder allowed me to narrow down my options and find a cat that met my needs for an emotional support animal. Using Petfinder’s API, I aimed to answer the question: Which organizations near me have the highest proportion of cats available for adoption?
 
 ### Using the Petfinder API
 
-Petfinder has a free [RESTful](https://www.geeksforgeeks.org/rest-api-introduction/) API available to the public which you can access [here](https://www.petfinder.com/developers/). All it takes is a Petfinder account (which you can easily create) and request form to briefly state your intentions for using it. Once you've done completed that step, you will recieve a Secret key and an API key--which in this case is called "Client ID", this will enable you to use the information from Petfinder's servers.
+Petfinder offers a free [RESTful](https://www.geeksforgeeks.org/rest-api-introduction/) API to the public, which you can access [here](https://www.petfinder.com/developers/). You’ll need to create a Petfinder account and submit a brief form explaining your intended use. Once approved, you’ll receive an API key (referred to as "Client ID") and a Secret key, which you’ll use to authenticate and access data.
 
-The Petfinder API uses OAuth for authentication. Before we try to access the endpoint we need to get our access token. Using our Client/API key and our Secret, we can the requests library in Python to grab grab our access token and save it as a variable.
+The Petfinder API uses OAuth for secure access. First, we’ll retrieve an access token using our API key and Secret key with Python’s requests library, saving it as a variable for later requests.
 
 ## Code Snippet
 {%- highlight python -%}
@@ -39,25 +38,22 @@ response = requests.post(auth_url, data=auth_data)
 token = response.json().get('access_token')
 {%- endhighlight -%}
 
-### Accessing the endpoints in the Petfinder API
+### Accessing the Petfinder Endpoints
 
-Now that we have access to use the Petfinder API, we can now access any endpoint and collect the data we want. 
-Since I want to know what animals are available in organizations near me, I need to use the "animals" endpoint and the "organization" endpoint to gather the information I need.
-Let's start with the "animals" endpoint. We need to use our access token as our header and adjust the parameters according to my question of interest. You can adjust the parameters
-anyway you'd like, but I'm going to put my zipcode and search for available animals within 100 miles. I will also put a limit of 50 which will limit the number of results to return per page.
+With our access token, we can access endpoints in the Petfinder API. To analyze available pets, we’ll use the "animals" and "organizations" endpoints. By specifying parameters like location and distance, I limited my search to 50 pets per page within a 100-mile radius. Here’s a sample of the setup:
 
 {%- highlight python -%}
 headers = {
     'Authorization': f'Bearer {token}'
 }
 params = {
-    'location': 'insert your zipcode here',
-    'distance': 100, #miles
+    'location': 84606, # zipcode
+    'distance': 100, # miles
     'limit': 50           
 }
 {%- endhighlight -%}
 
-You can choose how many animals you want, but since I'm doing a limit of 50 pets per page, I'm gathering 8 pages of information which will give me a selection of 400 pets to filter through.
+To gather a representative dataset, I retrieved 8 pages of results (400 pets in total) and stored them in a DataFrame.
 
 {%- highlight python -%}
 all_animals = []
@@ -89,14 +85,14 @@ while page <= max_pages:
         print("Error:", response.status_code, response.json())
         break
 
-#Make it a dataframe
+#Convert to a dataframe
 animals_df = pd.DataFrame(all_animals)
 {%- endhighlight -%}
 
 
-### Matching the Animals to their organization
+### Adding Organization Name
 
-With my new dataframe, I also have all the information I need. However, with the "animals" endpoint
+With my new dataframe, I have all the information I need. However, with the "animals" endpoint
 I don't have have the names of the organizations where the pets are located. We have the organization ID
 number which we can gather their names using the "organizations" endpoint. We can grab all the unique values
 of orgnization IDs from the animals dataframe we made and loop though each value and grab their name from this
@@ -118,9 +114,9 @@ for id in org_ids:
 Once we've done that, we have a table with all the information we need!
 
 
-### Summarizing and Describing the DataFrame
+### Summarizing the Data
 
-Forewarning, the Petfinder API is updated daily so the data changes quite a bit which makes sense due to pets being adopted or more being placed for adoption. However, we can use the same methods to summarize our dataset.
+Since Petfinder updates daily, the data changes frequently. However, we can use the same methods to summarize our dataset.
 
 If you would like to know the how many rows and columns are in your dataframe, you can use ".shape" attribute which will return a tuple of (rows, columns). To see the datatypes of each columns in the dataframe, you can use the attribute ".columns."
 {%- highlight python -%}
@@ -131,7 +127,7 @@ animals_df.columns
 
 {%- endhighlight -%}
 
-For some quick summary statistics at a glance, you can make a dictionary with the keys as the variable of interest and the values with the operation on the animals dataframe.
+To view some initial stats, I created a summary dictionary to check the distributions of pet species and age groups.
 
 {%- highlight python -%}
 summary_stats = {
@@ -141,7 +137,7 @@ summary_stats = {
 }
 {%- endhighlight -%}
 
-All of my code is listed on my Github. If you want to look at the full summary statistics code for idea, click [here](https://github.com/clawmendra/petfinder). I've listed the output of my findings of the species distribution and age groups I found from my code below.
+For a full look at the code and statistics, see my [GitHub repository](https://github.com/clawmendra/petfinder). Here’s an overview of species and age distributions from the dataset:
 
 #### Species Distribution
 
@@ -162,15 +158,16 @@ All of my code is listed on my Github. If you want to look at the full summary s
 | Young       | 107         |
 | Senior      | 17          |
 
-I also made a simple bar chart to see a spread of the animals listed by organization. Looks like [OutReach Pawsibilites](https://outreachpawsabilitiesinc.org/) has the highest number of pets listed online at the moment with around 60 pets.
+Using these summaries, I created a bar chart with Seaborn to visualize pet listings by organization, discovering that [OutReach Pawsibilites](https://outreachpawsabilitiesinc.org/) had the highest number of listings, with around 60 pets.
 
-### Highest Proportion of Cats
- 
- I took my animal dataframe and modified it only have the organization_name,species, and a count of how many animals total from that organization. I filtered out the organization that didn't have any cats. From that point I calculate the proportion of cats listed compared to the animals listed by organization and graphed it. 
+### Exploring Cat-Only Organizations
 
- <figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> 
-	<figcaption> Figure 1. - Bar Chart created with Seaborn and Matplotlib</figcaption>
-</figure>
+Next, I focused on organizations with a higher proportion of cats. By filtering out organizations without cats and calculating the proportion of cats at each organization, I found that nine organizations listed only cats!
 
-To my pleasant surprise, I was able to find 9 cat only Pet Organizations! Turns out if I only wanted to adopt a cat, I could go to any of those places and find one. I encourage to use Petfinder API and to try to analyze the animals near your location. For example, you could use my same question and try to solve what proportion of pet organizations near you have mostly dogs? 
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> <figcaption> Figure 1. - Bar Chart created with Seaborn and Matplotlib</figcaption> </figure>
+
+If you’d like to explore the Petfinder API, I encourage you to use this approach to analyze the types of animals available near you. For example, you could investigate which organizations primarily list dogs.
+
+### Conclusion
+
+Exploring the Petfinder API brought an interesting insight with the pet available for adoption in my area. Whether you are an aspiring data scientist, a pet lover, or both, I would encourage you to dive deeper into the API and uncover more!
