@@ -22,7 +22,6 @@ Petfinder offers a free [RESTful](https://www.geeksforgeeks.org/rest-api-introdu
 
 The Petfinder API uses OAuth for secure access. First, we’ll retrieve an access token using our API key and Secret key with Python’s requests library, saving it as a variable for later requests.
 
-## Code Snippet
 {%- highlight python -%}
 
 client_id = 'insertAPIkeyhere'
@@ -170,4 +169,4 @@ If you’d like to explore the Petfinder API, I encourage you to use this approa
 
 ### Conclusion
 
-Exploring the Petfinder API brought an interesting insight with the pet available for adoption in my area. Whether you are an aspiring data scientist, a pet lover, or both, I would encourage you to dive deeper into the API and uncover more!
+Exploring the Petfinder API brought an interesting insight with the pets available for adoption in my area. Whether you are an aspiring data scientist, a pet lover, or both, I would encourage you to dive deeper into the API and uncover more!
