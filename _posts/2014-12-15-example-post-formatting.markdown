@@ -68,10 +68,7 @@ print_hi('Tom')
 
 ## Figure with Caption
 
-<figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt=""> 
-	<figcaption>Figure 1. - This is an example figcaption</figcaption>
-</figure>
+
 
 
 {%- highlight html -%}

@@ -10,7 +10,9 @@ description: Insert description here
 
 ### Love for Pets
 
-Throughout my childhood, I was surrounded by pets: cats, dogs, hamsters, birds, fish, and even hermit crabs. My pets provided love and companionship, helping me cope during challenging times. When I moved out to study at BYU-Idaho University, I was diagnosed with depression and anxiety. Along with counseling and medication, I decided to adopt an emotional support animal. Looking online, I came across Petfinder, which helped me find my cat, Sophie. Now, although I’m not looking for another cat, I wanted to analyze Petfinder’s data to see which pet organizations near me have a higher proportion of cats compared to dogs.
+Throughout my childhood, I was surrounded by pets: cats, dogs, hamsters, birds, fish, and even hermit crabs. My pets provided love and companionship, helping me cope during challenging times. When I moved out to study at BYU-Idaho University, I was diagnosed with depression and anxiety. Along with counseling and medication, I decided to adopt an emotional support animal. Looking online, I came across Petfinder, which helped me find my cat, Sophie. With my previous experience with usin Petfinder, I wanted to analyze Petfinder’s data to see which pet organizations near me have a higher proportion of cats compared to dogs.
+
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/sophie.jpg" alt=""> <figcaption> Figure 1. - My cat Sophie. Photo taken by me.</figcaption> </figure>
 
 ### What is Petfinder?
 
@@ -163,7 +165,7 @@ Using these summaries, I created a bar chart with Seaborn to visualize pet listi
 
 Next, I focused on organizations with a higher proportion of cats. By filtering out organizations without cats and calculating the proportion of cats at each organization, I found that nine organizations listed only cats!
 
-<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> <figcaption> Figure 1. - Bar Chart created with Seaborn and Matplotlib</figcaption> </figure>
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> <figcaption> Figure 2. - Bar Chart created with Seaborn and Matplotlib</figcaption> </figure>
 
 If you’d like to explore the Petfinder API, I encourage you to use this approach to analyze the types of animals available near you. For example, you could investigate which organizations primarily list dogs.
 
