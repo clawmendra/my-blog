@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Using the Petfinder API to Analyze Animals"
+title:  "Using the Petfinder API to Analyze Cats"
 date: 2024-11-11
 author: Almendra Clawson
-description: Insert description here
+description: "Learn how to use the Petfinder API to analyze pet adoption data."
 ---
 
 <p class="intro"><span class="dropcap">A</span>re you interested in understanding pet adoption trends in your area? In this post, I’ll show you how I used the Petfinder API to analyze the availability of pets near me, specifically exploring which organizations have the highest proportion of cats available for adoption.</p>
