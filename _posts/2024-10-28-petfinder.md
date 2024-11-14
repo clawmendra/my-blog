@@ -160,15 +160,15 @@ For a full look at the code and statistics, see my [GitHub repository](https://g
 | Senior      | 17          |
 
 Using these summaries, I created a bar chart with Seaborn to visualize pet listings by organization, discovering that [OutReach Pawsibilites](https://outreachpawsabilitiesinc.org/) had the highest number of listings, with around 60 pets.
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/totalanimals.png" alt=""> <figcaption> Figure 2. - Bar Chart of Total Number of Pets created with Seaborn and Matplotlib.</figcaption> </figure>
 
 ### Exploring Cat-Only Organizations
 
 Next, I focused on organizations with a higher proportion of cats. By filtering out organizations without cats and calculating the proportion of cats at each organization, I found that nine organizations listed only cats!
 
-<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> <figcaption> Figure 2. - Bar Chart created with Seaborn and Matplotlib.</figcaption> </figure>
-
-If you’d like to explore the Petfinder API, I encourage you to use this approach to analyze the types of animals available near you. For example, you could investigate which organizations primarily list dogs.
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/catprop.png" alt=""> <figcaption> Figure 3. - Bar Chart of Cat Proportions created with Seaborn and Matplotlib.</figcaption> </figure>
 
 ### Conclusion
 
+If you’d like to explore the Petfinder API, I encourage you to use this approach to analyze the types of animals available near you. For example, you could investigate which organizations primarily list dogs.
 Exploring the Petfinder API brought an interesting insight with the pets available for adoption in my area. Whether you are an aspiring data scientist, a pet lover, or both, I would encourage you to dive deeper into the API and uncover more!
