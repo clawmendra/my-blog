@@ -56,11 +56,10 @@ params = {
     'limit': 50           
 }
 {%- endhighlight -%}
-{%- highlight python -%}
+
 You can choose how many animals you want, but since I'm doing a limit of 50 pets per page, I'm gathering 8 pages of information which will give me a selection of 400 pets to filter through.
 
-
-#Fetch multiple pages
+{%- highlight python -%}
 all_animals = []
 page = 1
 max_pages = 8
@@ -80,19 +79,8 @@ while page <= max_pages:
                 'organization_id': animal.get('organization_id'),
                 'id': animal.get('id'),
                 'species': animal.get('species'),
-                'name': animal.get('name'),
-                'age': animal.get('age'),
-                'breed': animal.get('breeds', {}).get('primary'),
-                'mixed': animal.get('breeds', {}).get('mixed'),
-                'color': animal.get('colors', {}).get('primary'),
-                'fixed': animal.get('attributes', {}).get('spayed_neutered'),
-                'house_trained': animal.get('attributes', {}).get('house_trained'),
-                'good_with_children': animal.get('environment', {}).get('children'),
-                'good_with_dogs': animal.get('environment', {}).get('dogs'),
-                'good_with_cats': animal.get('environment', {}).get('cats'),
-                'gender': animal.get('gender'),
-                'distance': animal.get('distance'),
-                'url': animal.get('url')            
+                'name': animal.get('name')
+                #...Insert more values here you want to grab          
             }
             all_animals.append(record)
         
@@ -153,7 +141,7 @@ summary_stats = {
 }
 {%- endhighlight -%}
 
-All of my code is listed on my Github. If you want to look at the full summary statistics code for idea, click here. I've listed the output of my findings of the species distribution and age groups I found from my code below.
+All of my code is listed on my Github. If you want to look at the full summary statistics code for idea, click [here](https://github.com/clawmendra/petfinder). I've listed the output of my findings of the species distribution and age groups I found from my code below.
 
 #### Species Distribution
 
