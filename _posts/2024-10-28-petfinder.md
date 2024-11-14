@@ -12,7 +12,7 @@ description: "Learn how to use the Petfinder API to analyze pet adoption data."
 
 Throughout my childhood, I was surrounded by pets: cats, dogs, hamsters, birds, fish, and even hermit crabs. My pets provided love and companionship, helping me cope during challenging times. When I moved out to study at BYU-Idaho University, I was diagnosed with depression and anxiety. Along with counseling and medication, I decided to adopt an emotional support animal. Looking online, I came across Petfinder, which helped me find my cat, Sophie. With my previous experience with usin Petfinder, I wanted to analyze Petfinder’s data to see which pet organizations near me have a higher proportion of cats compared to dogs.
 
-<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/sophie.jpg" alt="" style="width: 40%;"> <figcaption> Figure 1. - My cat Sophie. Photo taken by me.</figcaption> </figure>
+<figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/sophie.jpg" alt="" style="width: 30%;"> <figcaption> Figure 1. - My cat Sophie. Photo taken by me.</figcaption> </figure>
 
 ### What is Petfinder?
 
