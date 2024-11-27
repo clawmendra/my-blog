@@ -22,9 +22,7 @@ Throughout my childhood, I was surrounded by pets: cats, dogs, hamsters, birds, 
 
 Petfinder offers a free [RESTful](https://www.geeksforgeeks.org/rest-api-introduction/) API to the public, which you can access [here](https://www.petfinder.com/developers/). You’ll need to create a Petfinder account and submit a brief form explaining your intended use. Once approved, you’ll receive an API key (referred to as "Client ID") and a Secret key, which you’ll use to authenticate and access data.
 
-Keep in mind that to maintain good ethical data practices, API keys should never be shared with anyone other than the user. API keys are authentication credentials that are put into place
-to prevent misuse of the information such as data theft or resource abuse. It is best practice to store
-the API key on your local machine and to make sure you don't publish anywhere, including Github and Open AI websites.
+Keep in mind that with using an API, we should maintain good ethical data practices. API keys should never be shared with anyone other than the user. API keys are authentication credentials that are put into place to prevent misuse of the information provided such as data theft or resource abuse. It is best practice to store the API key on your local machine and don't hard code it in your code. Make sure you don't publish anywhere, including Github and Open AI websites.
 
 The Petfinder API uses OAuth for secure access. First, we’ll retrieve an access token using our API key and Secret key with Python’s requests library, saving it as a variable for later requests.
 
