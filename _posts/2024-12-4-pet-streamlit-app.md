@@ -52,10 +52,6 @@ with tab1:
         "Gender for Cat",
         genders
     )
-    st.header(f'Distribution of {gender_option} Cats by Age')
-    cat_fig = animal_plot(df=cats, sex=gender_option, ages=age_selected)
-    st.plotly_chart(cat_fig)
-
 {%- endhighlight -%}
 
 ...and this is what it looks like on the app!
@@ -63,4 +59,15 @@ with tab1:
 
 
 ### Adding Plots to Streamlit App
-A wise professor taught me, "If you can create it in Python, you can use it on Streamlit." 
+A wise professor taught me, "If you can create it in Python, you can create it on Streamlit." As you might have noticed in my code above, I saved all my widgets into variables (age_selected, genders). I can use these input variables to create a plot that is dependent on these inputs. I recommend creating a function that has the arguments of your dataframe and your variables to make a plot and then returns the figure. Once you've made this function, you can save it as a variable and then use [st.plotly_chart()](https://docs.streamlit.io/develop/api-reference/charts/st.plotly_chart) to plot it. 
+
+{%- highlight python -%}
+cat_fig = animal_plot(df=cats, sex=gender_option, ages=age_selected)
+st.plotly_chart(cat_fig)
+{%- endhighlight -%}
+
+### Using the Pet Adoption Web App
+You can access the Streamlit app I made [here](https://clawmendra-petfinder-st-pet-mmw1ml.streamlit.app/). Some insights I discovered with this app, I found there are more male cats available for adoption than male dogs. The most common age range for cats are kittens (labeled "Baby") 117 while their are only 19 male puppies available. When I switched to female, I saw the similar trend with 64 female kittens available for adoption but only 12 puppies.
+
+### Closing Remarks
+What other insights do you gain by looking at the app? After you look at my app, I encourage you to use that same dataset to create some other features using Streamlit. Perhaps you can see if you can add summary statistics table to the app! 
