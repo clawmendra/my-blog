@@ -16,7 +16,7 @@ In my previous post, I used the free [Petfinder API](https://www.petfinder.com/d
 
 For those unfamiliar with programming or data science, modifying data to answer questions or gain insights can be challenging. However, data scientist can bridge this gap by creating web applications that allow other users to explore the data easily! 
 
-A popular open-source Python library that is used to buildweb apps is [Streamlit](https://streamlit.io/). It's easy to use, and you can share our web app with others through a simple link! 
+A popular open-source Python library that is used to build web apps is [Streamlit](https://streamlit.io/). It's easy to use, and you can share our web app with others through a simple link! 
 
 If you haven't use Streamlit before, you can follow this installation tutorial [here](https://docs.streamlit.io/get-started/installation). Once it's installed on your computer, you can just import it as a library in Python. While I'll be showing the Streamlit app I created, I recommended watching this [video](https://www.youtube.com/watch?v=sogNluduBQQ) to get familiar with how Streamlit works.
 
