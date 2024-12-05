@@ -60,3 +60,7 @@ with tab1:
 
 ...and this is what it looks like on the app!
 <figure> <img src="{{site.url}}/{{site.baseurl}}/assets/img/widgets-st.png" alt=""> <figcaption> Figure 1. - Gender and Age Streamlit Widgets.</figcaption> </figure>
+
+
+### Adding Plots to Streamlit App
+A wise professor taught me, "If you can create it in Python, you can use it on Streamlit." 
