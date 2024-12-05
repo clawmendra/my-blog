@@ -6,7 +6,7 @@ author: Almendra Clawson
 description: "Using the data gathered from the Petfinder API to make a Streamlit App"
 ---
 
-<p class="intro"><span class="dropcap">A</span>re you interested in understanding pet adoption trends in your area? In this post, I’ll show you how I used the Petfinder API to analyze the availability of pets near me, specifically exploring which organizations have the highest proportion of cats available for adoption.</p>
+<p class="intro"><span class="dropcap">I</span>n this post, I’ll walk you through how I used the dataset gather from the  Petfinder API on adoptable pets to create a web app using Streamlit to explore the distribution of cats and dogs available for adoption in Utah. We'll cover everything from filtering the data to adding interactive features and visualizations that make it easy for anyone to gain insights into pet adoption trends.</p>
 
 ### Exploring our Petfinder Data
 
