@@ -22,7 +22,7 @@ If you haven't use Streamlit before, you can follow this installation tutorial [
 
 ### Designing the Pet Streamlit App
 
-The dataset that I will be using is available to download on my [Github repository](https://github.com/clawmendra/petfinder). It contains profiles of pets available for adoption in Utah.
+All the code and dataset that I will be using is available to download on my [Github repository](https://github.com/clawmendra/petfinder). It contains profiles of pets available for adoption in Utah.
 
 To answer my motivating question, I wanted to compare dog adoptions with cat adoptions. I decided to create two separate datasets—one for cats and one for dogs—and add two tabs to my web app to allow users to switch between these animals.
 
